@@ -1,1 +1,1 @@
-### Shared Angular components for accessing the Waves nodes
+### Shared Angular components for accessing the Agate nodes
