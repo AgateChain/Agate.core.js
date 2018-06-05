@@ -6,7 +6,7 @@
         DEFAULT_LIMIT = 50;
 
     function serializeId(id) {
-        return id === '' ? 'WAVES' : id;
+        return id === '' ? 'Agate' : id;
     }
 
     function DatafeedApiService(rest) {

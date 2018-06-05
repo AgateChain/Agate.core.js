@@ -9,7 +9,7 @@
             }
 
             /**
-             * Currency codes for Waves Platform
+             * Currency codes for Agate Platform
              * @param {Currency} currency
              * @returns {string} currency code
              */
@@ -18,8 +18,8 @@
                     case Currency.BTC.id:
                         return 'WBTC';
 
-                    case Currency.WAVES.id:
-                        return 'WAVES';
+                    case Currency.Agate.id:
+                        return 'Agate';
 
                     case Currency.ETH.id:
                         return 'WETH';
@@ -47,8 +47,8 @@
                     case Currency.BTC.id:
                         return 'BTC';
 
-                    case Currency.WAVES.id:
-                        return 'WAVES';
+                    case Currency.Agate.id:
+                        return 'Agate';
 
                     case Currency.ETH.id:
                         return 'ETH';
