@@ -1855,7 +1855,7 @@ Decimal.config({toExpNeg: -(Currency.Agate.precision + 1)});
                 }
             };
 
-            var assetApi = rest.all('assets');
+            var assetApi = rest.all('tokens');
             var assetBroadcastApi = assetApi.all('broadcast');
             this.assets = {
                 balance: function (address, assetId) {
