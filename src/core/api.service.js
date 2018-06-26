@@ -119,7 +119,7 @@
                         .all('asset-id-by-unique-name')
                         .get(assetName)
                         .then(function (response) {
-                            // FIXME : temporary fix for the API format
+                            // FIXME : temporary fix for the API format.
                             if (typeof response !== 'object') {
                                 response = {assetId: response};
                             }
